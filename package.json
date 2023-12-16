@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nrm": "^1.2.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-auto-catalog": "^2.0.0-rc.5",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
+  }
+}
